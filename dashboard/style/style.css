@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+    position: fixed;
+    background-color: #23355D;
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+h1{
+    font-family: 'Muli';
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-size: 1em;
+    font-family: 'Muli';
+}
+
+h3 {
+    font-size: 0.7em;
+    font-family: 'Muli';
+    font-weight: 300;
+    margin-bottom: 1.5em;
+}
+
+
+
+p {
+    font-family: 'Muli';
+    font-weight: 400;
+    font-size: 0.750em;
+}
+
+.span {
+    color: #E97C74;
+    font-weight: 700;
+}
+
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.welkom_msg {
+    color: white;
+    padding-top: 5.5em;
+    padding-bottom: 3.2em;
+}
+
+.blue_bg {
+    background-color: #23355D;
+    height: 15em;
+}
+
+header {
+    padding-top: 1em;
+    padding-left: 5%;
+
+}
+
+.logo {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.menu-label {
+    color: white;
+    font-family: 'Muli';
+    font-weight: 400;
+}
+
+
+.card_link {
+    float: right;
+    padding-top: 2.5em;
+    font-weight: 800;
+}
+
+.card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background: #FFFFFF;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.29), 0 0 2px 0 rgba(0,0,0,0.12);
+    border-radius: 3px;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    margin-top: 1em;
+}
+
+.first-card {
+    margin-top: -3em;
+
+}
+
+.personal_target {
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 0.85em;
+}
+
+.trophy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.progress_text {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+progress {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+progress[value] {
+    display: block;
+  /* Reset the default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 65%;
+    height: 12px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #EEEEEE;
+  border-radius: 2em;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: #E97C74;
+    border-radius: 2em;
+}
+
+
