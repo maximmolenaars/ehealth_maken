@@ -1,0 +1,24 @@
+nav {
+    background-color: #23355D;
+    position: fixed;
+}
+
+.welcomeMsg {
+    background-color: #23355D;
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.welcomeMsg > p {
+    color: white;
+    font-size: 120%;
+}
+
+.first-card {
+    margin-top: -5em;
+}
+
+a:not(.btn):not(.btn-large):not(.btn-floating) {
+    color: black;!important
+}
