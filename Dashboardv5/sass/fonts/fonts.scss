@@ -1,0 +1,21 @@
+/*IMPORT MULI FONT*/
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+$header-font: 'Montserrat', sans-serif;
+$body-text: 'Muli';
+$primary-colour: #000000;
+$font-colour-white: #FFFFFF;
+$default-font-size: 1em;
+$default-header-size: 1.4em;
+
+h1 {
+  font-family: $body-text;
+  font-size: $default-header-size;
+}
+
+p {
+  font-family: $body-text;
+  font-size: $default-font-size;
+  color: $primary-colour;
+}
