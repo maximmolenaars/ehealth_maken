@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F7F7F7;
+}
+
+article > p {
+  margin-top: 1.4em;
+}
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700,900');
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Muli', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+
+/* BUTTONS */
+
+button {
+  background-color: #43C6A6;
+  padding: 1em 2em 1em 2em;
+  border-style: none;
+  border-radius: 2em;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #3BB698;
+  padding: 1em 2em 1em 2em;
+  border-style: none;
+  border-radius: 2em;
+}
+
+button:active {
+  background-color: #3BB698;
+  padding: 1em 2em 1em 2em;
+  border-style: none;
+  border-radius: 2em;
+  box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
+}
+
+.btn {
+  margin-top: 2em;
+}
+
+span {
+  color: white;
+  font-family: 'Muli', sans-serif;
+  font-size: 1em;
+}
+
+/* CONTENT */
+
+main {
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 2em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+header {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 4em;
+  background-color: white;
+}
+
+article {
+  padding: 2em;
+  /*background: #FFFFFF;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.29), 0 0 2px 0 rgba(0,0,0,0.12);
+  border-radius: 3px;*/
+  transition: 0.5s;
+  width: 20em;
+}
+
+article:hover {
+  padding: 2em;
+  background: #FFFFFF;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.29), 0 0 2px 0 rgba(0,0,0,0.12);
+  border-radius: 3px;
+}
